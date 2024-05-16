@@ -1,0 +1,1025 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("BalooBhaijaan-Regular.ttf");
+}
+@font-face {
+  font-family: "myfont2";
+  src: url("/Baloo2-VariableFont_wght.ttf");
+}
+.joy {
+  color: rgb(215, 123, 65);
+}
+
+.number23 {
+  position: relative;
+  border-bottom: 400px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+  margin-right: 30px;
+}
+
+.contact img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.burger {
+  font-size: 100px;
+  background-color: white;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+.subscribe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: unset;
+}
+
+.subscribe div {
+  margin: 30px;
+}
+
+.subscribe .button {
+  position: relative;
+  top: 30px;
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-left: 40px;
+}
+.contact p {
+  position: relative;
+  left: 20px;
+}
+
+.navbar {
+  font-family: "myfont", BalooBhaijaan;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+}
+.navbar .menu {
+  margin-right: 35px;
+  font-size: 80px;
+}
+
+.logo {
+  height: 20vh;
+  width: 20vh;
+}
+
+.home {
+  font-family: "myfont", BalooBhaijaan;
+}
+.home h1 {
+  font-size: 73px;
+  font-weight: 900;
+  color: #0A3140;
+}
+.home h2 {
+  font-size: 38px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+}
+.home img {
+  width: 100%;
+}
+.home .equal-image {
+  height: 70px;
+}
+.home img {
+  opacity: 0, 5rem;
+}
+.home input {
+  padding: 5px;
+}
+.home .line1 {
+  height: 2px;
+  width: 50px;
+  background-color: rgb(215, 123, 65);
+  margin-right: 10px;
+  display: inline-block;
+}
+
+textarea {
+  width: 100%;
+}
+
+.lorem img {
+  position: relative;
+  bottom: 95px;
+  height: 500px;
+  width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fly {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.prie {
+  position: relative;
+  top: 48px;
+}
+
+.lorem {
+  font-family: "myfont", balooBhaijan;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lorem img {
+  width: 80%;
+}
+.lorem h2 {
+  color: rgb(215, 123, 65);
+  font-size: 50px;
+}
+
+.rec76 {
+  height: 592px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 15px;
+}
+
+.service {
+  padding: 20px;
+  font-family: "myfont", BalooBhaijaan;
+  background-color: #0B394D;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+.service .serve {
+  margin: 15px;
+  font-family: "myfont2", Baloo2;
+  padding-bottom: 40px;
+  color: white;
+}
+.service .card {
+  background-color: #123E52;
+  color: white;
+}
+.service .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.service a {
+  text-decoration: none;
+  font-size: 27px;
+  margin-left: 35px;
+  font-weight: 900;
+  color: black;
+}
+.service h5 {
+  color: rgb(215, 123, 65);
+}
+
+.home {
+  font-family: "myfont", BalooBhaijaan;
+}
+.home h1 {
+  font-size: 73px;
+  font-weight: 900;
+}
+.home h2 {
+  font-size: 38px;
+  font-weight: 900;
+}
+.home img {
+  width: 100%;
+}
+
+.head {
+  padding: 20px;
+  padding-left: 37px;
+}
+
+.red {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.rec9 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 449px;
+}
+
+.service {
+  margin: unset;
+  padding: 20px;
+}
+
+.home {
+  padding: 20px;
+}
+
+.number3 {
+  margin-top: 11px;
+}
+
+.pro {
+  width: 487px;
+}
+
+.number12 {
+  position: relative;
+  bottom: 18px;
+  height: 50px;
+  left: 4px;
+  width: 222px;
+  opacity: 70%;
+}
+
+.number11 {
+  position: relative;
+  bottom: 20px;
+  height: 50px;
+  bottom: 31px;
+}
+
+.number10 {
+  position: relative;
+  bottom: 29px;
+  height: 50px;
+  width: 248px;
+}
+
+.number13 {
+  position: relative;
+  bottom: 36px;
+  height: 50px;
+  left: 29px;
+}
+
+.subscribe {
+  font-family: "myfont", BalooBhaijaan;
+  background-color: white;
+  padding-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.subscribe .h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subscribe .button {
+  padding-bottom: 10px;
+  background-color: rgb(0, 62, 84);
+  color: white;
+}
+.subscribe a {
+  background-color: #0B394D;
+  padding: 15px;
+  width: 260px;
+  margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(128, 151, 160);
+}
+.subscribe h2 {
+  color: rgb(215, 123, 65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  font-family: "myfont", BalooBhaijaan;
+  background-color: rgb(243, 244, 246);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact img {
+  height: 100%;
+  width: 100%;
+}
+.contact .forms {
+  padding-left: 120px;
+  padding-right: 5px;
+  padding-top: 5px;
+  color: rgb(243, 244, 246);
+}
+@media (max-width: 578px) {
+  .contact .forms {
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 0%;
+  }
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact .button {
+  background-color: rgb(21, 21, 51);
+  padding: 10px;
+  height: 50px;
+  font-size: larger;
+  margin-top: 15px;
+}
+.contact h2 {
+  color: rgb(215, 123, 65);
+}
+.contact .call {
+  padding: 0px;
+}
+
+textarea {
+  margin-top: 0px;
+  border: none;
+}
+
+.get p {
+  margin: 5px;
+}
+
+.log {
+  font-family: "myfont", BalooBhaijaan;
+}
+.log .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nor {
+  color: rgb(215, 123, 65);
+}
+
+.pro {
+  color: rgb(215, 123, 65);
+}
+
+.number6 {
+  margin-top: 133px;
+}
+
+.icon {
+  color: white;
+}
+
+.carousel {
+  border-radius: 10px;
+}
+
+.nowalls {
+  position: relative;
+  right: 230px;
+}
+
+.footer {
+  font-family: "myfont", BalooBhaijaan;
+  background-image: url("Img/Group 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  width: 100%;
+  height: 400px;
+  color: white;
+  margin-top: 56px;
+}
+.footer h2 {
+  position: relative;
+  top: 138px;
+  font-weight: bolder;
+  left: 140px;
+  margin-left: 50px;
+}
+.footer .lucky {
+  display: flex;
+  position: relative;
+  top: 152px;
+  justify-content: space-evenly;
+  right: 399px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+.footer .lucky p {
+  margin-left: 20px;
+}
+.footer .lucky span {
+  margin-left: 20px;
+}
+.footer .lucky i {
+  margin-left: 20px;
+}
+
+.col-md-3 {
+  padding-bottom: 45px;
+  font-family: "myfont", BalooBhaijaan;
+}
+
+.get {
+  margin-left: 100px;
+}
+.get .ttt {
+  font-size: small;
+}
+
+.logo {
+  height: 20vh;
+  width: 20vh;
+  position: relative;
+  right: 79px;
+}
+
+.number10 {
+  opacity: 40%;
+  width: 300px;
+  right: 6px;
+  bottom: 31px;
+  height: 180px;
+}
+
+.number11 {
+  opacity: 40%;
+  height: 54px;
+  width: 300px;
+}
+
+.number13 {
+  opacity: 40%;
+  height: 55px;
+}
+
+.number12 {
+  opacity: 40%;
+  height: 55px;
+  width: 212px;
+}
+
+.contact p {
+  position: relative;
+  top: 21px;
+  left: 51px;
+}
+
+.contact h2 {
+  position: relative;
+  top: 27px;
+  left: 23px;
+}
+
+.ifon {
+  position: relative;
+  right: 150px;
+}
+
+.icon {
+  position: relative;
+  left: 250px;
+  font-size: 20px;
+  bottom: 3px;
+}
+
+.fly p {
+  font-family: "myfont", BalooBhaijaan;
+}
+
+.call {
+  position: relative;
+  bottom: 4px;
+}
+
+.service {
+  padding: 20px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 167px;
+  bottom: 37px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.icon {
+  display: flex;
+  position: relative;
+  left: 169px;
+  font-size: larger;
+  bottom: 3px;
+}
+
+.ifon {
+  position: relative;
+  right: 85px;
+  top: 5px;
+}
+
+@media (max-width: 576px) {
+  .dropdown {
+    display: none;
+  }
+  .subscribe h2 {
+    font-size: 17px;
+  }
+  .menu {
+    display: none;
+  }
+  .nowalls {
+    position: relative;
+    right: 3px;
+    height: 144px;
+    top: 39px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 33px;
+    position: relative;
+    left: 200px;
+    left: 294px;
+    top: 47px;
+  }
+  .footer .lucky {
+    margin-left: 407px;
+  }
+  .number23 {
+    display: none;
+  }
+  .head {
+    margin-left: 33px;
+  }
+  .fly {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .number11 {
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    bottom: 31px;
+    display: none;
+  }
+  .number13 {
+    position: relative;
+    bottom: 36px;
+    height: 50px;
+    left: 29px;
+    display: none;
+  }
+  .number10 {
+    display: none;
+  }
+  .number12 {
+    display: none;
+  }
+  .lorem {
+    font-family: "myfont", balooBhaijan;
+    margin-left: 6px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .rec76 {
+    display: none;
+  }
+  .xavi {
+    margin-right: 105px;
+  }
+  .rec9 {
+    display: none;
+  }
+  .head h1 {
+    font-size: 25px;
+  }
+  .head h2 {
+    font-size: 20px;
+  }
+  .head .subscribe h2 {
+    padding-top: 0px;
+  }
+  .head .rec10 {
+    display: none;
+  }
+  .call {
+    margin-right: 10px;
+    padding: 0px;
+  }
+  .lorem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  .lorem h2 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .subscribe h2 {
+    margin-bottom: 30px;
+    margin-left: 5px;
+  }
+  .pro {
+    display: none;
+  }
+  .col-md-3 {
+    font-family: "myfont", BalooBhaijaan;
+    padding-bottom: 0px;
+  }
+  .get .h2 {
+    font-size: 20px;
+  }
+  .contact img {
+    display: none;
+  }
+  .contact h2 {
+    font-size: 25px;
+    margin-right: 80px;
+  }
+  .contact p {
+    font-size: 10px;
+    margin-right: 12x;
+  }
+  .h2 {
+    font-size: 28px;
+  }
+  .get p {
+    font-size: x-small;
+  }
+  .footer p {
+    font-size: xx-small;
+    margin-top: 0px;
+  }
+  .rec10 {
+    display: none;
+  }
+  .footer h2 {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .ifon {
+    font-size: 16px;
+  }
+  .footer .lucky p {
+    margin: 0px;
+  }
+  .lucky {
+    display: flex;
+  }
+  .footer h2 {
+    position: relative;
+    top: 134px;
+    font-weight: bolder;
+    left: 31px;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 578px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .head h1 {
+    font-size: 40px;
+  }
+  .head h2 {
+    font-size: 20px;
+  }
+  .head .subscribe h2 {
+    padding-top: 0px;
+  }
+  .head .rec10 {
+    display: none;
+  }
+  .lorem {
+    display: flex;
+    flex-direction: column;
+  }
+  .lorem p {
+    font-size: 12px;
+  }
+  .fly .number23 {
+    width: 51%;
+  }
+  .rec9 {
+    height: 174px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: none;
+  }
+  .number13 {
+    display: none;
+  }
+  .number12 {
+    display: none;
+  }
+  .number11 {
+    display: none;
+  }
+  .number10 {
+    display: none;
+  }
+  .pro {
+    width: 200px;
+    display: none;
+  }
+  .rec10 {
+    width: 111%;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 22px;
+    background-color: darkolivegreen;
+    position: relative;
+    left: 614px;
+  }
+  .home {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .fly {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .nowalls {
+    position: relative;
+    right: 256px;
+    top: 38px;
+  }
+  .logo {
+    width: 380px;
+    position: relative;
+    right: 232px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 150px;
+  }
+  .navbar .menu {
+    display: none;
+  }
+  .subscribe h2 {
+    font-size: 20px;
+    margin-left: 50px;
+    padding-left: 0px;
+  }
+  .subscribe a {
+    padding-top: 5px;
+    margin-left: 50px;
+  }
+  .lorem h2 {
+    color: rgb(215, 123, 65);
+    font-size: 27px;
+    position: relative;
+  }
+  .contact p {
+    position: relative;
+    top: 21px;
+    left: 21px;
+  }
+  .xavi {
+    position: relative;
+    top: 10px;
+    left: 22px;
+  }
+  .contact .forms {
+    position: relative;
+    right: 50px;
+  }
+  .footer h2 {
+    text-align: center;
+  }
+  .contact h2 {
+    font-size: 29px;
+    margin-right: 28px;
+  }
+  .contact {
+    font-size: 13px;
+  }
+  .footer span {
+    position: relative;
+    left: 0px;
+    bottom: 7px;
+  }
+  .footer .ifon {
+    position: relative;
+    left: 185px;
+    bottom: 66px;
+  }
+  .footer p {
+    position: relative;
+    left: 207px;
+    bottom: 67px;
+  }
+  .footer .icon {
+    position: relative;
+    left: 125px;
+    bottom: 16px;
+  }
+  .footer {
+    height: 233px;
+  }
+  .footer h2 {
+    position: relative;
+    top: 66px;
+    font-weight: bolder;
+    left: 0px;
+    margin-right: 144px;
+    right: 111px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .lorem h2 {
+    font-size: 37px;
+  }
+  .rec9 {
+    height: 184px;
+    display: none;
+  }
+  .menu {
+    margin-right: 29px;
+    font-size: 88px;
+    position: relative;
+    top: 50px;
+    right: 30px;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 900;
+    color: rgb(0, 62, 84);
+    position: relative;
+    bottom: 17px;
+  }
+  .nowalls {
+    position: relative;
+    right: 46px;
+  }
+  .number10 {
+    display: none;
+  }
+  .number11 {
+    display: none;
+  }
+  .number12 {
+    display: none;
+  }
+  .number13 {
+    display: none;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .ifon {
+    position: relative;
+    /* right: -7px; */
+    left: 0px;
+    margin-right: 16px;
+  }
+  .icon {
+    position: relative;
+    left: 159px;
+    font-size: larger;
+    bottom: 3px;
+  }
+  .ziggy {
+    font-weight: 100;
+  }
+  .footer .lucky {
+    display: flex;
+    position: relative;
+    top: 152px;
+    justify-content: space-evenly;
+    right: 199px;
+    margin-left: 20px;
+    margin-left: 20px;
+  }
+  .footer {
+    background-size: contain;
+  }
+}
+@media (min-width: 995px) and (max-width: 2000px) {
+  .openbtn {
+    display: none;
+  }
+  .fly .number23 {
+    width: 51%;
+  }
+  .fly {
+    margin-bottom: -36px;
+    position: relative;
+    bottom: 58px;
+  }
+}/*# sourceMappingURL=nowalls.css.map */
