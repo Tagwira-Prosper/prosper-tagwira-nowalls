@@ -599,7 +599,7 @@ textarea{
 }
 .nowalls{
     position: relative;
-    right: 230px;
+    right: 213px;
 }
 
 // footer
@@ -1158,6 +1158,12 @@ left: 51px;
         right: 111px;
     }
 }
+@media (min-width:992px) and (max-width:1024px){
+       .nowalls {
+            position: relative;
+            right: 48px;
+        }
+}
 
 
 @media (min-width:992px) and (max-width:1024px){
@@ -1188,10 +1194,9 @@ left: 51px;
             bottom: 17px;
         }  
        
-        .nowalls {
-            position: relative;
-            right: 46px;
-        }
+     
+        
+        
         .number10{
             display: none;
         }

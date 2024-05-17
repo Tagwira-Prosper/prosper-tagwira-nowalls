@@ -461,7 +461,7 @@ textarea {
 
 .nowalls {
   position: relative;
-  right: 230px;
+  right: 213px;
 }
 
 .footer {
@@ -940,6 +940,12 @@ textarea {
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
+  .nowalls {
+    position: relative;
+    right: 48px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
   .lorem h2 {
     font-size: 37px;
   }
@@ -962,10 +968,6 @@ textarea {
     color: rgb(0, 62, 84);
     position: relative;
     bottom: 17px;
-  }
-  .nowalls {
-    position: relative;
-    right: 46px;
   }
   .number10 {
     display: none;
